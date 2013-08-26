@@ -1,0 +1,131 @@
+
+.clear
+{
+    clear: both;
+}
+.classification
+{
+    margin-top: 10px;
+    padding: 0px;
+}
+.classification li
+{
+    display: block;
+    width: 100%;
+    border-bottom: solid 1px darkgray;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.classification li span
+{
+    text-align: left;
+}
+
+.classification li a
+{
+    text-decoration: none;
+}
+
+.itemImg
+{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.typeName
+{
+    color: #000000;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.moreType
+{
+    font-size: 10px;
+    color: #999999;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.btn-danger {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #da4f49;
+    *background-color: #bd362f;
+    background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+    background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+    background-repeat: repeat-x;
+    border-color: #bd362f #bd362f #802420;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    float: right;
+    margin: 5px;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+    color: #ffffff;
+    background-color: #bd362f;
+    *background-color: #a9302a;
+}
+
+.btn-danger:active,
+.btn-danger.active {
+    background-color: #942a25 \9;
+}
+
+.navbar-form {
+    *zoom: 1;
+    background-color: #dd1144;
+    width: 100%;
+}
+.navbar-form:before,
+.navbar-form:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.navbar-form:after {
+    clear: both;
+}
+
+.navbar-form input,
+.navbar-form select,
+.navbar-form .radio,
+.navbar-form .checkbox {
+    margin: 5px;
+    width: 180px;
+}
+
+.navbar-form input,
+.navbar-form select,
+.navbar-form .btn {
+    display: inline-block;
+}
+
+.navbar-form input[type="image"],
+.navbar-form input[type="checkbox"],
+.navbar-form input[type="radio"] {
+    margin-top: 5px;
+}
+
+.navbar-form .input-append,
+.navbar-form .input-prepend {
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.pull-left
+{
+    float: left;
+}

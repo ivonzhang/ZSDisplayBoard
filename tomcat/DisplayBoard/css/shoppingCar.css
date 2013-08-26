@@ -1,0 +1,45 @@
+.total
+{
+
+    overflow: hidden;
+    border-bottom: solid 2px #DCDCDC;
+    width: 100%;
+}
+
+.total
+{
+    padding: 5px;
+}
+.total li
+{
+    display: inline;
+    float: left;
+    width: auto;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.total li:after
+{
+    clear: both;
+}
+
+.payBtn
+{
+    background-color: red;
+}
+
+.price,
+.count
+{
+    text-align: left;
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.count input
+{
+    width: 20px;
+}

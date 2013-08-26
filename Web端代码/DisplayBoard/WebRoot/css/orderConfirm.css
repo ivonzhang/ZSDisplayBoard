@@ -1,0 +1,92 @@
+.orderDetail
+{
+    padding: 0;
+}
+.orderDetail li
+{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px dashed #808080;
+    padding: 5px 0 5px 0;
+}
+
+.orderDetail a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.itemImg
+{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.orderDetail li .typeName
+{
+    color: #000000;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.orderDetail li .price,
+.orderDetail li .count
+{
+    color: #999999;
+    font-size: 10px;
+}
+
+.orderDetail li .subtotal
+{
+    color: red;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+.orderDetail .goLeft
+{
+    float: left;
+    width: 100px;
+    text-align: left;
+}
+
+.orderDetail .goRight
+{
+    float: right;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#message
+{
+    border: 0;
+    width: 180px;
+}
+
+.total
+{
+    border: 1px solid #000000;
+    font-size: 13px;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: #999999;
+}
+
+.num
+{
+    background-color: #999999;
+    float: left;
+    text-align: center;
+    width: 150px;
+    border: 2px solid #999999;
+}
+.payBtn
+{
+    background-color: red;
+    padding-right: 10px;
+    float: right;
+    width: 100px;
+}

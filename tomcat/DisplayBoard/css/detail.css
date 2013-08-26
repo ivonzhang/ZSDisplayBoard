@@ -1,0 +1,36 @@
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10px;
+}
+
+table tr th,td
+{
+    text-align: center;
+}
+
+table tr th
+{
+    background-color: #DCDCDC;
+}
+
+.imgs
+{
+    text-align: center;
+}
+.imgs img
+{
+    height: 250px;
+    margin: 5px;
+    border: solid 1px #FFB90F;
+}
+.imgs p
+{
+    text-align: left;
+    color: #1b1b1b;
+    font: "黑体";
+    border-bottom: solid 2px #000000;
+    font-size: 15px;
+    margin: 5px;
+}

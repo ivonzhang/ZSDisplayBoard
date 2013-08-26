@@ -1,0 +1,76 @@
+.userHeader
+{
+    background-color: #DCDCDC;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.userHeader .itemImg
+{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+
+}
+
+.userHeader .username
+{
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.userHeader .point
+{
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+.userHeader #myPoint
+{
+    color: red;
+}
+
+.myAccount
+{
+    width: 100%;
+    padding: 0px;
+}
+
+.myAccount li
+{
+    display: block;
+    border: solid 2px #808080;
+    margin-bottom: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.myAccount .goLeft
+{
+    float: left;
+    width: 100px;
+    text-align: left;
+}
+
+.myAccount .goRight
+{
+    float: right;
+    width: 100px;
+    text-align: right;
+}
+
+.myAccount a
+{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+.myAccount li a:visited {
+    color: #000000;
+}
+
+.myAccount li a:active {
+    color: #dd1144;
+}

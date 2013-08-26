@@ -1,0 +1,42 @@
+.orderList
+{
+    padding: 0px;
+}
+.orderList li
+{
+    display: block;
+    width: 100%;
+    border-bottom: solid 1px darkgray;
+    overflow: hidden;
+}
+.orderList li span
+{
+    text-align: left;
+}
+
+.orderList li a
+{
+    text-decoration: none;
+}
+
+.itemImg
+{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.typeName
+{
+    color: #000000;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.moreData
+{
+    text-align: right;
+    font-size: 10px;
+    color: #999999;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

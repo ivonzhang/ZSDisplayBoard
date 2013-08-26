@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DisplayBoard"
+  id="myeclipse.1375839919209"
+  context-root="/DisplayBoard"
+  j2ee-spec="1.4"
+  archive="DisplayBoard.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

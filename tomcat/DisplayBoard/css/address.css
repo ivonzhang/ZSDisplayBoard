@@ -1,0 +1,44 @@
+.addressList
+{
+    padding: 0px;
+}
+
+.addressList li
+{
+    display: block;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.addressList li a
+{
+    color: #000000;
+    text-decoration: none;
+}
+.consignee
+{
+    margin: 0px;
+    font-size: 12px;
+}
+
+.detailAddress
+{
+    margin: 0px;
+    font-size: 10px;
+
+}
+
+.newBtn
+{
+    background-color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.newBtn a
+{
+    color: #000000;
+    text-decoration: none;
+}

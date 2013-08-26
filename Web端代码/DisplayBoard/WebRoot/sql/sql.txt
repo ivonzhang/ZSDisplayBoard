@@ -1,0 +1,8 @@
+/上传的展板的数据表
+CREATE TABLE `displayboardinfo` (
+  `displayboardid` varchar(64) NOT NULL DEFAULT '',
+  `displayboardname` varchar(64) DEFAULT NULL,
+  `displayboardtype` varchar(64) DEFAULT NULL,
+  `displayboardimage` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`displayboardid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
